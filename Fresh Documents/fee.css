@@ -1,0 +1,62 @@
+*{
+}
+body{
+  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background:url(dush.jpg);
+    font-family: sans-serif;
+  
+    
+}
+h1{
+  margin:0 ;
+  padding:0 ;
+  color:#ffff;
+  font-size: 30px;
+  
+}
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+input{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+  font-family: sans-serif;
+  transition-property: width;
+}
+.text{
+  background: #ffff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 25px;
+  border-radius: 25px 0px 0px 25px;
+}
+.submit{
+  position: relative;
+  border-radius:0 25px 25px 0;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: gold;
+  color: #ffff;
+  left: -5px;
+}
+.submit:hover{
+  background: #ff5722;
+  width: 180px; ;
+}
+.text:hover{
+  width: 350px; 
+}
